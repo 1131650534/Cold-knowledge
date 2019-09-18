@@ -20,7 +20,7 @@
       <div class="shang"></div>
       <h2>一战到底说明</h2>
       <div class="xia"></div>
-      <p>box-shadow:阴影水平偏移值（可取正负值）； 阴影垂直偏移值（可取正负值）；阴影模糊值；阴影颜色</p>
+      <p>一位挑战者开始答题，一共十个关卡。一个关卡，有十道题，每道题有15秒钟的时间，答对一题10分。多答有可能上榜哟！</p>
       <div class="last"></div>
     </div>
     
@@ -50,19 +50,20 @@ export default {
   background: url(../images/bg4.jpg) no-repeat;
     background-size: 100% 100%;
     font-size: 16px;
-    height: 100%;
+    height: 100vh;
   .blockDiv {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 1rem;
+    // justify-content: space-evenly;
+    margin-top: .8rem;
     div {
       width: 26%;
-      margin-top: 2%;
+      margin-top: 3%;
       height: 10%;
       color: white;
       position: relative;
+      padding-left: .4rem;
       img{
         width: 100%;
         height: 100%;

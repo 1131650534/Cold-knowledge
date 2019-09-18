@@ -38,7 +38,7 @@ body {
 }
 #box1 {
   font-size: 16px;
-  background: url(../images/login.jpg) no-repeat;
+  background: url(../images/tgbj.jpg) no-repeat;
   background-size: cover; //背景自适应
   width: 100%;
   height: 100%;
